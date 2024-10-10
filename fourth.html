@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fourth.css">
+</head>
+<body>
+    <h1 id="heading">EVM</h1>
+    <h3 id="heading-2">Vote Wisely!</h3>
+    <table id="main-table">
+        <tr id="main-heading">
+        <th>S.No</th>
+        <th>Symbol</th>
+        <th>Party</th>
+        <th>Vote</th>
+    </tr>
+    <tr id="party1">
+        <td>1</td>
+        <td>Hand</td>
+        <td>Congress</td>
+        <td><button id="b1" onclick="first()">Vote</button></td>
+    </tr>
+    <tr id="party2">
+        <td>2</td>
+        <td>Elephant</td>
+        <td>BSP</td>
+        <td><button id="b2" onclick="second()">Vote</button></td>
+    </tr>
+    <tr id="party3">
+        <td>3</td>
+        <td>Lotus</td>
+        <td>BJP</td>
+        <td><button id="b3" onclick="third()">Vote</button></td>
+    </tr>
+
+    </table>
+    <button id="result" onclick="showResult()">Show Results</button>
+    <h2 id="sRes"></h2>
+    <script src="fourth.js"></script>
+</body>
+</html>

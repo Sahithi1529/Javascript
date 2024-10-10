@@ -1,0 +1,71 @@
+#main-heading{
+    background-color: coral;
+    height: 70px;
+    width: 55%;
+    padding-left: 45%;
+    padding-top: 35px;
+    margin-right:20%;
+    border-radius: 25px;
+    
+    
+}
+
+#add-task-button{
+    background-color: red;
+    color: white;
+    margin-left: 48%;
+    padding: 5px;
+    margin-top:10px;
+    font-size: 15px;
+
+}
+
+#add-task-button:hover{
+    background-color: green;
+   
+    
+}
+    
+#main-table{
+    border:1px solid black;
+    width: 75%;
+    margin-left: 15%;
+    margin-bottom: 5px;
+    
+
+
+
+}
+
+#heading-row{
+    background-color:skyblue;
+    font-size: large;
+    text-align: center;
+    
+}
+.data-rows{
+    font-size:large;
+    background-color: beige;
+    text-align:center;
+}
+
+.status{
+    background-color: yellow;
+    font-weight: 500;
+
+
+}
+
+#edit-task-button{
+    background-color: red;
+    color: white;
+    font-size:15px;
+    padding:5px;
+
+}
+
+#edit-task-button:hover{
+    background-color: orange;
+   
+    
+}
